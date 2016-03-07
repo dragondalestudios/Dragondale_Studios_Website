@@ -1,16 +1,6 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="8">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="922" endPos="922" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\index.php" backupFilePath="" originalFileLastModifTimestamp="1455932969" />
-            <File firstVisibleLine="60" xOffset="0" scrollWidth="1" startPos="868" endPos="868" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\style.css" backupFilePath="" originalFileLastModifTimestamp="1455935003" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="327" endPos="327" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\games.php" backupFilePath="" originalFileLastModifTimestamp="1455923410" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="228" endPos="228" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\header.php" backupFilePath="" originalFileLastModifTimestamp="1455914452" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="95" endPos="95" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\footer.php" backupFilePath="" originalFileLastModifTimestamp="1455858063" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="21" endPos="21" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\script.js" backupFilePath="" originalFileLastModifTimestamp="1455858090" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="120" endPos="120" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\about.php" backupFilePath="" originalFileLastModifTimestamp="1455911083" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="122" endPos="122" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\store.php" backupFilePath="" originalFileLastModifTimestamp="1455911020" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="5704" startPos="29" endPos="29" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Dragondale_Studios_Website\contact.php" backupFilePath="" originalFileLastModifTimestamp="1455910796" />
-        </mainView>
+        <mainView activeIndex="8" />
         <subView activeIndex="0" />
     </Session>
 </NotepadPlus>

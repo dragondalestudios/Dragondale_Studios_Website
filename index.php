@@ -1,15 +1,29 @@
 <?php 
-$rootPath = dirname(__DIR__);
+$rootpath = dirname(__DIR__);
 define('ROOT_PATH', dirname(__DIR__) . "/");
 $pageTitle = "home";
 include "header.php";
-
+$_POST["billingAddress"] = "";
 ?>
+
 <div id="index">
-	<h1>This is the index page</h1></br>
-	<h2> Building magic on the Unreal Engine. </h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl non enim sagittis gravida nec in neque. Donec dignissim efficitur sodales. Nulla porta finibus suscipit. Morbi quis erat non elit facilisis eleifend. Donec sit amet dapibus velit. Phasellus ultrices posuere rhoncus. Donec vel urna eros. Vivamus accumsan ultricies sapien egestas hendrerit. Cras tempus ultricies ante, et luctus quam rutrum at. Nam mattis ultrices ante, et eleifend tellus vulputate in. Curabitur fringilla sodales euismod. Duis bibendum risus enim. Proin vitae arcu sed est laoreet bibendum. In hac habitasse platea dictumst. Pellentesque pretium eget felis et aliquam. Mauris malesuada varius nibh vitae pretium.</p>
+	
+	<!--Ask if first visit -->
+	<?php if($_SESSION['count'] < 1){ ?>
+	<!-- Display only on first visit -->
+	<div id="splashDiv">
+		<h1>Welcome!</h1>
+		<a href="index.php"><h2>Click here</h2></a>
+	</div>
+	
+	<?php }else{ ?>
+	<a href="games.php">
+		<img id="logo" src="images/dragondale_logo.png"/>
+		<h1>Dragondale Studios</h1>
+		</a>
+	<?php }; ?>
 </div>
 <?php
+$_SESSION['count']++;
 include "footer.php";
 ?>
