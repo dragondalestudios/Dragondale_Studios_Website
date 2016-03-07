@@ -55,6 +55,7 @@ NAVIGATION
 	width: 40%;
 	margin: 0;
 	text-align: left;
+
 	
 }
 
@@ -106,6 +107,25 @@ p{
 	width: 200px;
 }
 
+#about_us{
+	font-size: 30px;
+}
+#about_us:hover{
+
+}
+
+#games{
+	font-size: 30px;
+}
+#games:hover{
+	
+}
+#store{
+	font-size: 30px;
+}
+#store:hover{
+	
+}
 /*****************
 Games Page
 *****************/
@@ -156,6 +176,7 @@ footer{
 	color: #eee;
 	width: 100%;
 	text-align: center;
+	font-size: 16px;
 	
 }
 
@@ -207,3 +228,15 @@ footer{
 		}
 }
 
+/**************
+About us Page
+**************/
+
+.About_us {
+	font-size: 20px;
+	
+}
+
+.about_h1 {
+	font-size: 35px;
+}

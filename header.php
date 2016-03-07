@@ -6,7 +6,7 @@ session_start()
 <html>
 <head>
 	<title>Dragondale Studios</title>
-	<link href="style.css" type="html/css" rel="stylesheet"/>
+	<link href="style.css" rel="stylesheet"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="script.js"></script>
 

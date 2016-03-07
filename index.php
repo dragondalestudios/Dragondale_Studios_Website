@@ -21,6 +21,13 @@ $_POST["billingAddress"] = "";
 		<img id="logo" src="images/dragondale_logo.png"/>
 		<h1>Dragondale Studios</h1>
 		</a>
+	
+	<div id="games"> <a href="games.php"> Games </a> </div>
+	
+	<div id="store"> <a href="store.php"> Store </a> </div>
+	
+	<div id="about_us"> <a href="about.php">about us </a></div>
+	
 	<?php }; ?>
 </div>
 <?php
